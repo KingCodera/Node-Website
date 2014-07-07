@@ -1,7 +1,6 @@
 doctype html
 html(lang="en")
-	head
-		include header
+	include header
 	body
 		include navbar
 		.jumbotron
@@ -19,9 +18,9 @@ html(lang="en")
 			include content
 			hr
 			include footer
-		script.
-			$(document.ready(function() {
-				$('#home').addClass("active");
-			});
 		script(src='https://code.jquery.com/jquery.js')
+		script.
+			$(document).ready(function() {
+				$("#home").addClass("active");
+			});		
 		script(src='//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js')
