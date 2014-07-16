@@ -26,3 +26,6 @@ node_modules
 
 # Config files containing sensitive data
 conf/*.json
+
+# Site certificates, never share!
+cert/*.*

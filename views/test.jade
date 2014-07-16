@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    .container
+        .page-header
+            h1 Mahouka Koukou no Rettousei <small>Statistics</small>
+        .panel.panel-default
+            .panel-heading
+                .panel-title Total Downloads
+            .panel-body
+                #container(style="min-width: 310px; height: 450px; margin: 0 auto")
+
+block scripts
+    script(src='scripts/highcharts.src.js')
+    script(src='scripts/modules/exporting.js')
+    script(src='scripts/downloadstats.js')

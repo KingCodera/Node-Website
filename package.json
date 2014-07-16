@@ -6,8 +6,24 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "3.2.6",
-    "jade": "*",
-    "parse-torrent": "*"
+    "express": "3.2.6"
+    , "jade": "*"
+    , "parse-torrent": "*"
+    , "stylus": "*"
+    , "emailjs": "*"
+    , "moment": "*"
+    , "bcryptjs": "*"
+    , "mongodb": "*"
+    , "jsdom": "*"
+    , "bn.js": "*"
+    , "bencode": "*"
+    , "compact2string": "*"
+    , "concat-stream": "*"
+    , "debug": "*"
+    , "extend.js": "*"
+    , "hat": "*"
+    , "querystring": "*"
+    , "inherits": "*"
+    , "parse-torrent": "*"
   }
 }

@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    include header
+    body
+        include navbar
+        .container
+            .page-header
+                h1 Publish <small>new episode</small>
+            .panel.panel-default
+                .panel-heading 
+                    .panel-title Episode
+                .panel-body
+                    form(method="post", action="/")
+                        input#title.form-control(type="text", placeholder="Title")                    
+                        input#story.form-control.input-large(type="text", placeholder="Text")
+                        button.btn.btn-default(type="button") Publish
+            include footer
