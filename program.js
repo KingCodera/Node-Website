@@ -4,6 +4,7 @@
 var parseTorrent = require('parse-torrent');
 var scraper = require('./server/torrentscraper.js');
 var fs = require('fs');
+var extend = require('util')._extend;
 
 var db = {};
 
@@ -17,15 +18,17 @@ db.writedb = function() {
 
 db.readdb();
 
-fs.readdir(__dirname + '/server/torrents', function(err, files) {
-	for (var i in files) {
-		var file = files[i];
+fs.readdir(__dirname + '/server/torrents', function(err, files) {	
+	var index = 0;
+	while (index < files.length) {
+		var file = files[index];
 		var suffix = '.torrent';
 		if (file.indexOf(suffix, file - suffix.length) !== -1) {
 			var torrent = fs.readFileSync(__dirname + '/server/torrents/' + file);
 			var parsedTorrent = parseTorrent(torrent);
-			scraper.scrape(parsedTorrent, db);
-		}		
+			scraper.scrape(extend({}, parsedTorrent), db, {});
+		}
+		index++;		
 	}
 });
 

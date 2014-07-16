@@ -30,16 +30,15 @@ function toUInt16(n) {
 
 var MAX_UINT = 4294967295;
 
-exports.scrape = function(torrent, db) {	
-	var self = this;
+exports.scrape = function(torrent, db, opts) {		
 	var peerId = new Buffer('01234567890123456789');
 	
-	self._db = db;
-	self._opts = {};
-	self._peerId = Buffer.isBuffer(peerId) ? peerId : new Buffer(peerId, 'utf8');
-	self._port = 6881;
-	self._infoHash = Buffer.isBuffer(torrent.infoHash) ? torrent.infoHash : new Buffer(torrent.infoHash, 'hex');
-	self.torrentLength = torrent.length;
+	opts._db = db;
+	opts._opts = {};
+	opts._peerId = Buffer.isBuffer(peerId) ? peerId : new Buffer(peerId, 'utf8');
+	opts._port = 6881;
+	opts._infoHash = Buffer.isBuffer(torrent.infoHash) ? torrent.infoHash : new Buffer(torrent.infoHash, 'hex');
+	opts.torrentLength = torrent.length;
 	
 	if (typeof torrent.announce === 'string') {
 		torrent.announce = [torrent.announce];
@@ -49,15 +48,15 @@ exports.scrape = function(torrent, db) {
 		if (announceUrl.indexOf('udp:') === 0) {
 			// TODO: Handle UDP request.
 		} else {
-			console.log("Processing torrent with infoHash: " + self._infoHash.toString('hex'));
+			console.log("Processing torrent with infoHash: " + opts._infoHash.toString('hex'));
 			// HTTP request.
-			var opts = extend({
-				info_hash: self._infoHash.toString('binary')
-			}, self._opts);
+			var options = extend({
+				info_hash: opts._infoHash.toString('binary')
+			}, opts._opts);
 			
 			announceUrl = announceUrl.replace('announce', 'scrape');
 			
-			var fullUrl = announceUrl + '?' + common.querystringStringify(opts);
+			var fullUrl = announceUrl + '?' + common.querystringStringify(options);
 			var req = http.get(fullUrl, function(res) {
 				if (res.statusCode !== 200) {
 					res.resume(); // consume the whole stream
@@ -65,7 +64,7 @@ exports.scrape = function(torrent, db) {
 				}
 				res.pipe(concat(function(data) {
 					if (data && data.length)
-						handleResponse(announceUrl, data, self);
+						handleResponse(announceUrl, data, opts);
 				}))
 			})
 
@@ -97,28 +96,28 @@ var handleResponse = function(requestUrl, data, object) {
 		return;
 	}
 	
-	
 	data = data.files || data.host || {};
-	console.log(data.files + ' vs ' + self._infoHash.toString());
-	console.log(data.files + ' vs ' + self._infoHash.toString('binary'));
 	data = data[self._infoHash.toString()];
+	var infohash = self._infoHash.toString('hex');
 
 	if (!data) {
-		console.log('No data');
+		console.log('No data ' + infohash);
 	} else {
 		// TODO: optionally handle data.flags.min_request_interval (separate
 		// from announce interval)		
-		var infohash = self._infoHash.toString('hex');		
+		
 		if (self._db.db[infohash] === undefined) {
 			self._db.db[infohash] = {};
 		}
 		
 		if (requestUrl.indexOf('minglong') !== -1) {
 			// Add data to minglong stats.
-			self._db.db[infohash].minglong = data.downloaded;			
+			self._db.db[infohash].minglong = data.downloaded;
+			console.log(infohash + ' minglong data added');
 		} else if (requestUrl.indexOf('anime-index') !== -1) {
 			// Add data to anidex stats.
-			self._db.db[infohash].anidex = data.downloaded;			
+			self._db.db[infohash].anidex = data.downloaded;
+			console.log(infohash + ' anidex data added');
 		}
 		
 		self._db.writedb();

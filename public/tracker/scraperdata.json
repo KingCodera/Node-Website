@@ -1,18 +1,1331 @@
 {
-    "834229037201eefff32b89236e8b75ed76d74ce3": {
-        "minglong": 0,
-        "anidex": 0
-    },
-    "fcec7b7f2aaed177ff0b4664e565f75582b41e66": {
-        "minglong": 0,
-        "anidex": 0
-    },
     "9cf0ad6c6964ccd8a1581ddb067295b7c2cd8013": {
-        "anidex": 249,
+        "anidex": 251,
         "minglong": 72
     },
     "593d24f3586ed80a4a1f2f323e590056d07899c5": {
         "minglong": 71,
         "anidex": 118
+    },
+    "69f419ca712937e40ef94e14e5263fe14013b6a2": {
+        "minglong": 455,
+        "anidex": 1413
+    },
+    "49abe0fbecff829151846f27636d611dd838cbdf": {
+        "minglong": 389,
+        "anidex": 1064
+    },
+    "83cb77912f986d0c77e96879b056f689e7a3d6bb": {
+        "minglong": 64,
+        "anidex": 170
+    },
+    "28c2b399b619e30ca619ee9e4af37746c801efe5": {
+        "minglong": 2695,
+        "anidex": 979
+    },
+    "a93fe020b89e2db4d5c3f75c547030afc28120ae": {
+        "minglong": 908,
+        "anidex": 664
+    },
+    "6c827679c41076fd15c6fd82d3f1fdf340477d55": {
+        "minglong": 100,
+        "anidex": 67
+    },
+    "39eddff1e9c83590b30b9424a8e6059342c32775": {
+        "minglong": 134,
+        "anidex": 71
+    },
+    "fbf12726658cd353fbd8aa82d8f526550e85aa8a": {
+        "minglong": 783,
+        "anidex": 802
+    },
+    "49be354cbfe44c0660e31aa1243a513b86876103": {
+        "minglong": 105,
+        "anidex": 65
+    },
+    "1f6b8c7155ab3eecc281ae0f747738b6238404ca": {
+        "minglong": 1849,
+        "anidex": 4432
+    },
+    "b7ecd456d31404d09fc6606983c128844447b179": {
+        "minglong": 1014,
+        "anidex": 638
+    },
+    "2119dd0a5c32b2eece4a54761fef8641ad54a3ce": {
+        "minglong": 330,
+        "anidex": 539
+    },
+    "e2fb472b9aaf699c1eeef2d3477480a7d3b3e955": {},
+    "ef95c40dd53c3668d4670ec1769d39a00f47a547": {
+        "minglong": 63,
+        "anidex": 70
+    },
+    "be2e99b1b4f44f974cb81e7b1a7ae6a583cc4887": {
+        "minglong": 529,
+        "anidex": 501
+    },
+    "57f2a7f2a0a574aba14297dce1d862c1aa3f618f": {
+        "minglong": 360,
+        "anidex": 519
+    },
+    "ae5f28c3990d3da2e16ec3f2bee7d05eeaae6d95": {
+        "minglong": 130,
+        "anidex": 33
+    },
+    "fc15cc88221db47c5a17b1ed80e01cae4cd46674": {
+        "minglong": 1648,
+        "anidex": 3342
+    },
+    "5f1fe472717b7480078b492903207e9e66c335ab": {
+        "minglong": 338,
+        "anidex": 1043
+    },
+    "cef4a6379cb3ad08bc70da57c498136a06242808": {
+        "minglong": 291,
+        "anidex": 507
+    },
+    "a20bd91025d9cbfdbcdd86153c3adde27eb8acab": {
+        "minglong": 41,
+        "anidex": 139
+    },
+    "65a2c65c54e74443653b258c1d5b7da211cf1b61": {
+        "minglong": 437,
+        "anidex": 1145
+    },
+    "5a4c24692dd008050fd0273fc0239df6a59e4010": {
+        "minglong": 466,
+        "anidex": 1348
+    },
+    "74e446dccd9c91132340402587d8d4cafa679126": {
+        "minglong": 372,
+        "anidex": 442
+    },
+    "d9bdb784f20dccee255cba76362765a625ebffea": {
+        "minglong": 59,
+        "anidex": 150
+    },
+    "9b434fd80959591030123ed8bff3abfbb1deee8b": {
+        "minglong": 3640,
+        "anidex": 9588
+    },
+    "786ef7819827f946beb9c8167ad7b70955eb5d38": {
+        "minglong": 1868,
+        "anidex": 2230
+    },
+    "2ce13c3583786f52825f1fae409072043e47ff5b": {
+        "minglong": 709,
+        "anidex": 761
+    },
+    "47130c0fc7c3498940510bf8edaec9f1109f6b79": {
+        "minglong": 222,
+        "anidex": 604
+    },
+    "2d438b7fef864af33a866cc5205a74cc64bdcf5e": {
+        "minglong": 1400,
+        "anidex": 10315
+    },
+    "9b98d0e0f1210898b76d7a09bfdf16e0e9287dcf": {
+        "minglong": 925,
+        "anidex": 359
+    },
+    "8e97a0fdf3fc6d710ca05ea8b8daba40c3d8a0cc": {
+        "minglong": 1010,
+        "anidex": 898
+    },
+    "781bb093631656b3dd7c9713f64ae94255539b09": {
+        "minglong": 1004,
+        "anidex": 814
+    },
+    "0f423a79c0bf8889d0790a780a48cbaa73489490": {
+        "minglong": 102,
+        "anidex": 27
+    },
+    "260739ec51a89f32c98f4fc8898293b4c24ff44b": {
+        "minglong": 369,
+        "anidex": 695
+    },
+    "7bd9fdbafa3ab6b7f32a0e2011005ec1e5167472": {
+        "minglong": 61,
+        "anidex": 55
+    },
+    "864963db5dc213b60bf7bb403c05df9b7bc67e0f": {
+        "minglong": 400,
+        "anidex": 41
+    },
+    "bfe9435d28cbb67750ebdc71b9f2d2638055bb2f": {
+        "minglong": 333,
+        "anidex": 256
+    },
+    "8660852ded0f46bbe39323c1ca4961371cb86593": {
+        "minglong": 26,
+        "anidex": 40
+    },
+    "1c10c1751094831d96d3d6c31154cc7e2e4e91de": {
+        "minglong": 198,
+        "anidex": 191
+    },
+    "14d17ae439f1df4dfadfb3fe90c51395f466b8ee": {
+        "minglong": 38,
+        "anidex": 27
+    },
+    "9add147001ec64aee582465be8e60009eac7fec2": {
+        "minglong": 498,
+        "anidex": 402
+    },
+    "fd3a90037242c290db3128efb222d79bb685d738": {
+        "minglong": 210,
+        "anidex": 75
+    },
+    "4f6555e59f3b1ef378898d96adfc210964449098": {
+        "minglong": 223,
+        "anidex": 187
+    },
+    "b097c746cbb514f0dccefc1af19082fa26f3bbc6": {
+        "minglong": 1309,
+        "anidex": 3553
+    },
+    "e3ebcd45479d175744a7d9b9dcfc7b0230c1eb4f": {
+        "minglong": 1340,
+        "anidex": 3955
+    },
+    "e9f95dbd92d9b3ec473790b6c69ffa88a68d7c73": {
+        "minglong": 927,
+        "anidex": 1609
+    },
+    "9e03fb81122df1dde02170dac6049130a5e0a148": {
+        "minglong": 129,
+        "anidex": 175
+    },
+    "99d22d3ee8b1cc7d70f7ea3d1c9fa945b3a9b6b4": {
+        "minglong": 612,
+        "anidex": 956
+    },
+    "8101052fd2cc6e1d89c0be3cd462bd1872777abc": {
+        "minglong": 149,
+        "anidex": 409
+    },
+    "027f8aa49d39c521087f69ecf20319272e52850b": {
+        "minglong": 508,
+        "anidex": 802
+    },
+    "2e1b8ad97d02aa13f997a2c379c42d263ac6a6e7": {
+        "minglong": 119,
+        "anidex": 157
+    },
+    "fe8d64b1b75fb84400ad28c2850fa96b8c806c5f": {
+        "minglong": 425,
+        "anidex": 420
+    },
+    "e96581cc84e043a2e0539f33b7f75f859394ae88": {
+        "minglong": 58,
+        "anidex": 38
+    },
+    "77bb36fda1398717553170c1e944dbbf7dc25aed": {
+        "minglong": 556,
+        "anidex": 809
+    },
+    "6cb3b6c0bf1f930570acab91e396b621490be8c6": {
+        "minglong": 425,
+        "anidex": 689
+    },
+    "74d89c9fec3504d5cc56a93d469a7f1b3a13a02f": {
+        "minglong": 95,
+        "anidex": 155
+    },
+    "bd90d90613fd8587048bd52906567546b068f1df": {
+        "minglong": 1683,
+        "anidex": 524
+    },
+    "eaa8a6edbde1eafc6ed7bd3076594c6088eb0fa4": {
+        "minglong": 704,
+        "anidex": 2094
+    },
+    "142e1161c7172e20e83b703159e916f0a9bc3c13": {
+        "minglong": 67,
+        "anidex": 189
+    },
+    "f3d95f4b2de4dcb7391369aa4f1c7d57f9dccc5f": {
+        "minglong": 780,
+        "anidex": 837
+    },
+    "88d9baa2d5f30e1d4062377a6e415df87c82751f": {
+        "minglong": 628,
+        "anidex": 646
+    },
+    "c3080a846614d07a63f4a81bb173b9398cccd0d5": {
+        "minglong": 597,
+        "anidex": 1198
+    },
+    "a796445d3479036a5b699c46adf8fafb1e766c8b": {
+        "minglong": 65,
+        "anidex": 124
+    },
+    "3d0a540ee11ddb538f9729928c769751d852c619": {
+        "minglong": 1359,
+        "anidex": 1133
+    },
+    "4f0bbe62960bbf055ee863587157a1c451dead11": {
+        "minglong": 981,
+        "anidex": 875
+    },
+    "5af2199ca4861ef097816b9fb0f68bab561abbaf": {
+        "minglong": 609,
+        "anidex": 227
+    },
+    "abc827c0f7c1fb44d8859f836c4b1cbe14549495": {
+        "minglong": 1996,
+        "anidex": 53539
+    },
+    "c39331c1a55a41b04b1be833fd6c0add5fab7be1": {
+        "minglong": 437,
+        "anidex": 1352
+    },
+    "0c1b0c4b701f2cd548b7ffe6c97b01012741255a": {
+        "minglong": 388,
+        "anidex": 1144
+    },
+    "97334fa00436840cbaf89d933c1d62c2d693323e": {
+        "minglong": 71,
+        "anidex": 223
+    },
+    "4d2cf4e9d8a78a51f28d4db2e28e3102aab64dba": {
+        "minglong": 2748,
+        "anidex": 1705
+    },
+    "ea75be8808fcf9611592ab4fb599f3582369bb1e": {
+        "minglong": 506,
+        "anidex": 208
+    },
+    "49a311dabe788f996cbe1bd9a6121e5731a2e139": {
+        "minglong": 2138,
+        "anidex": 2212
+    },
+    "d19a1683a74e93b9ab18392f7c7d91210a0b3016": {
+        "minglong": 439,
+        "anidex": 1264
+    },
+    "9dcac394b0ba83e2c3799bcbef85d97dc086cb75": {
+        "minglong": 402,
+        "anidex": 1080
+    },
+    "dc6d2403fd474b81d417e79618d7539e3f9c439d": {
+        "minglong": 739,
+        "anidex": 951
+    },
+    "adef2cc34d3f44b4059e54a0f8ecfe9154e545fa": {
+        "minglong": 733,
+        "anidex": 976
+    },
+    "9b7c30ca553390bb0b5a6b57597d05a0922e96a4": {
+        "minglong": 186,
+        "anidex": 222
+    },
+    "7663c36c3eda87d2ac87938a154459a3994b566b": {
+        "minglong": 658,
+        "anidex": 1164
+    },
+    "9cde422334c2506b0b07a41ac222cde8d0169d91": {
+        "minglong": 385,
+        "anidex": 673
+    },
+    "5fee4396c6fbf107d51326895b6df01386119670": {
+        "minglong": 139,
+        "anidex": 168
+    },
+    "15987e8dc6eb73c2f97321de048554089b7eeb0b": {
+        "minglong": 409,
+        "anidex": 819
+    },
+    "aa04e96b05c717c0b5c823069b9266673345b7c1": {
+        "minglong": 46,
+        "anidex": 89
+    },
+    "6aab1f7f0ef6fbb5afa222a1e88017a16b7775a7": {
+        "minglong": 1063,
+        "anidex": 1593
+    },
+    "39dea72727fc06697cef1a2c67bdca93e5962995": {
+        "minglong": 504,
+        "anidex": 727
+    },
+    "a30884dafb161fb8fa3ed829b29c34d09893b834": {
+        "minglong": 819,
+        "anidex": 2374
+    },
+    "122500fac1c0557d32b0f2ffc53d70353795f329": {
+        "minglong": 284,
+        "anidex": 211
+    },
+    "e81528f6dd6803bd6dd57742306e01be1cc38e2a": {
+        "minglong": 1029,
+        "anidex": 1994
+    },
+    "1651308658450ae53e6dd43413f22572bb159f1e": {
+        "minglong": 767,
+        "anidex": 1302
+    },
+    "c0ba3302670bf80d89989f1476134dec08d2e32a": {
+        "minglong": 118,
+        "anidex": 166
+    },
+    "ece0e7d83fe49ca143bdd128e179f7111cd66418": {
+        "minglong": 440,
+        "anidex": 499
+    },
+    "8fc354a50f7a25190024923eab84e849afd9727b": {
+        "minglong": 1180,
+        "anidex": 1349
+    },
+    "560858f55fe05576520d03d4ead21757c040b852": {
+        "minglong": 895,
+        "anidex": 1229
+    },
+    "38cfbc8ad80acc1e39269cb377e35ab1d9b941d4": {
+        "minglong": 215,
+        "anidex": 84
+    },
+    "5bc62525c370c884a6772c2318c74f40e39fd005": {
+        "minglong": 696,
+        "anidex": 365
+    },
+    "dfa406d61880ffb20a296f0b89e35c6d04d3dd02": {
+        "minglong": 568,
+        "anidex": 421
+    },
+    "1668dab64612d6bec5351c24c3f51eea5cde4b21": {
+        "minglong": 95,
+        "anidex": 13
+    },
+    "2cdc04759dbf251fc1d7729f83403a8a74e87eef": {
+        "minglong": 675,
+        "anidex": 2046
+    },
+    "7b2d02d29bd6330538ec5b6d5698da0b696748af": {
+        "minglong": 91,
+        "anidex": 234
+    },
+    "533015a523906654ea9ae0810230fdb944743ec5": {
+        "minglong": 442,
+        "anidex": 752
+    },
+    "9f1d4edd5e53858774b2ff9e7f5e6990c2fc4625": {
+        "minglong": 286,
+        "anidex": 575
+    },
+    "0f27a5b482b8d82543a3bffd423b355697e6a2d8": {
+        "minglong": 99,
+        "anidex": 143
+    },
+    "090378662d729f1185c5a711781ac3193670a4e7": {
+        "minglong": 420,
+        "anidex": 506
+    },
+    "76945ad589930804008cf51090e7194910523b36": {
+        "minglong": 82,
+        "anidex": 72
+    },
+    "93a572d230dd6637c2786bbf3101d5b2429f2ace": {
+        "minglong": 178,
+        "anidex": 504
+    },
+    "32163a7f6a1ac662e6d1481e6546d187691c5498": {
+        "minglong": 32,
+        "anidex": 94
+    },
+    "97eb1eaad8707cc88f5e14f3e02c401b80bc7de8": {
+        "minglong": 479,
+        "anidex": 944
+    },
+    "0f1d92e869f15adfb652d1b45d24554e07e7f9b7": {
+        "minglong": 81,
+        "anidex": 158
+    },
+    "316021521051ec5dea5ed53eb8b98753c2bf8b3d": {
+        "minglong": 1415,
+        "anidex": 2475
+    },
+    "11ff294c7420376fecb82630dfa0d7c0f3de446e": {
+        "minglong": 981,
+        "anidex": 1862
+    },
+    "fe2dceac37ebcaa7c50decff7aff6d903978510c": {
+        "minglong": 406,
+        "anidex": 1348
+    },
+    "6e7d66fd08d229cf328578bffb029a4108c219c4": {
+        "minglong": 76,
+        "anidex": 203
+    },
+    "66f890c2ebc4bf09be313a3fc0b1e0dec19069e8": {
+        "minglong": 1710,
+        "anidex": 3248
+    },
+    "9e78420b788f70272cb1f93823920561639b482d": {
+        "minglong": 1168,
+        "anidex": 1558
+    },
+    "72b5387dd6d6a73039b43a67360c531f762285d1": {
+        "minglong": 571,
+        "anidex": 1162
+    },
+    "0767b741e9786297be2ef84dcbbb8764fc483d0d": {
+        "minglong": 431,
+        "anidex": 973
+    },
+    "203d60911bc448d6700610b361a3e9d72c4aa6e4": {
+        "minglong": 202,
+        "anidex": 371
+    },
+    "22ebfa6ef1e20eaebe939c6409a9f63d60394805": {
+        "minglong": 53,
+        "anidex": 78
+    },
+    "cebd505462ac35814d600f958755ecf033f6a308": {
+        "minglong": 1149,
+        "anidex": 1924
+    },
+    "4c5e6d2c29da4c844823f6b6236e6e3f2d98dfdc": {
+        "minglong": 235,
+        "anidex": 362
+    },
+    "5a03247e84605b82456eb2df19ffa1ea41fe1ba9": {
+        "minglong": 407,
+        "anidex": 351
+    },
+    "ba63d9e011a691b2b62c7a2305e27d97c17e9d56": {
+        "minglong": 67,
+        "anidex": 8
+    },
+    "17a5c6e335e7f8e7668e8cfddd0f13f9139efff2": {
+        "minglong": 1283,
+        "anidex": 1258
+    },
+    "0270a35cbe44cc99f1f05e83ee36bf689ae618ff": {
+        "minglong": 309,
+        "anidex": 126
+    },
+    "0e347c715e157174431fc7ff0d1f5632cd18cfd2": {
+        "minglong": 514,
+        "anidex": 1523
+    },
+    "2a1f1ff113650d3786ba079ea234bc7d58a34756": {
+        "minglong": 69,
+        "anidex": 223
+    },
+    "bb986bdad82329d744ce58eb47a512a8141479bd": {
+        "minglong": 312,
+        "anidex": 956
+    },
+    "b1e2501cfe7a7c44d0ab6ca0b02a9fb74eed8429": {
+        "minglong": 327,
+        "anidex": 880
+    },
+    "40a0d0d1db2a6b8c57e213f9c531a22245e67682": {
+        "minglong": 263,
+        "anidex": 775
+    },
+    "cfa6e21c7e9c98a0b41dac21ed8691ae530d7892": {
+        "minglong": 63,
+        "anidex": 165
+    },
+    "dc4fa1d323ca48ad7d7a44e4fcc8513717bde2dd": {
+        "minglong": 325,
+        "anidex": 260
+    },
+    "ad57773876431590c1260f75adc462bce2a9c8f4": {
+        "minglong": 23,
+        "anidex": 4
+    },
+    "a2182ee4be84a3e2f5ca75871c758b19c54adeac": {
+        "minglong": 2971,
+        "anidex": 4289
+    },
+    "eb215f5729bcfff72a541a26b442ab0fb349129e": {
+        "minglong": 382,
+        "anidex": 398
+    },
+    "e934045b1e954e0a2544e09b26b3b0c10b50d3d5": {
+        "minglong": 1017,
+        "anidex": 1759
+    },
+    "387dc3f8312597f13bb28fc71b71d60211f44f0f": {
+        "minglong": 115,
+        "anidex": 150
+    },
+    "e243f1d44443ba36485358ca74d7695311e41341": {
+        "minglong": 273,
+        "anidex": 212
+    },
+    "cabd5a19167492db7e1aa5243931543ca2ea8f7d": {
+        "minglong": 48,
+        "anidex": 29
+    },
+    "03f9f34a8cfccb46e2bb36ddb620d76de7ec9d51": {
+        "minglong": 890,
+        "anidex": 527
+    },
+    "81aa40de75aa7f1cfd21025deaeb472cddb0c8da": {
+        "minglong": 366,
+        "anidex": 646
+    },
+    "95a218e76561ec523bcc77164965a16891adc418": {
+        "minglong": 496,
+        "anidex": 96
+    },
+    "c8990001f6515c515d0f215c7223285def2a2ec7": {
+        "minglong": 873,
+        "anidex": 1426
+    },
+    "b4a2bfcc316db0ca1c985be8675c1e1148c4b28e": {
+        "minglong": 571,
+        "anidex": 991
+    },
+    "24a03ce24092c82a1ea93aa0d94f7cfce6d8a57f": {
+        "minglong": 198,
+        "anidex": 284
+    },
+    "85161a6a4380a916f91a4845f63123c2119e74ed": {
+        "minglong": 517,
+        "anidex": 425
+    },
+    "0f4c90f0aead9903d7017bd18265aed1e0e569e4": {
+        "minglong": 426,
+        "anidex": 444
+    },
+    "478525d56e421f8be6609720152595001e2437f7": {
+        "minglong": 37,
+        "anidex": 34
+    },
+    "92a717d7d45c1065bf570e3eb22ac4c8fa5253b4": {
+        "minglong": 950,
+        "anidex": 1590
+    },
+    "e39f00e6e715b05e248db693aa4459ebfdd895c9": {
+        "minglong": 202,
+        "anidex": 293
+    },
+    "36e7e510b164fc3f18fa1d5d14c01c7732bd0629": {
+        "minglong": 954,
+        "anidex": 213
+    },
+    "aa61683ce041dbd4958300188938283d3a39f48d": {
+        "minglong": 220,
+        "anidex": 489
+    },
+    "fe9b6213d3e98c455f39ce0be5d81bca65b8df12": {
+        "minglong": 134,
+        "anidex": 304
+    },
+    "a1f6ca55ef1876d0329ea6d43d7827d445c63635": {
+        "minglong": 47,
+        "anidex": 80
+    },
+    "efc13943413bc849ba7d592edcafc345b9662cca": {
+        "minglong": 637,
+        "anidex": 812
+    },
+    "2fd3df7cb6c8c80122f64185cc7b9e313a4bdbc9": {
+        "minglong": 5172,
+        "anidex": 7403
+    },
+    "4ee1982aaa86e9bc9177159d8028fd17dcd7bc09": {
+        "minglong": 1249,
+        "anidex": 3742
+    },
+    "5b55f3b3bc7ecdaf63722cccbe035b741bd4cbac": {
+        "minglong": 1139,
+        "anidex": 4182
+    },
+    "7589a61a76446537aad3168679b026dd7d8c507a": {
+        "minglong": 92,
+        "anidex": 273
+    },
+    "91f13e233068cf7ed93e8fcc985ba07a868d61ce": {
+        "minglong": 741,
+        "anidex": 1674
+    },
+    "e15e9feef53760d737d2eecd08c71994e2ad14a1": {
+        "minglong": 795,
+        "anidex": 1596
+    },
+    "a6ad74949f7489e039d6a14de2b79151c1111a5c": {
+        "minglong": 26,
+        "anidex": 36
+    },
+    "4a990eeeea12ca9ad3447db7663df3ffc184e7b4": {
+        "minglong": 228,
+        "anidex": 364
+    },
+    "1d968e163b02b00bc89e7db6e9f93fd8407f3ecf": {
+        "minglong": 9,
+        "anidex": 17
+    },
+    "0bfb0235e34ebf9d4097405dea9d379318fa47c8": {
+        "minglong": 1088,
+        "anidex": 1059
+    },
+    "93063057816caee291e3c8419aeb0ac38977939e": {
+        "minglong": 153,
+        "anidex": 98
+    },
+    "846b6abde191245f6528ddafa0ed45e9e3ee6405": {
+        "minglong": 720,
+        "anidex": 1711
+    },
+    "4996fda14e240be65ac0656118069e7e4a1504d8": {
+        "minglong": 70,
+        "anidex": 175
+    },
+    "7bde52319fb961e7289f77b33ebea03ef4742c27": {
+        "minglong": 611,
+        "anidex": 139
+    },
+    "1909a1837441719473f8df6e556391823294f313": {
+        "minglong": 910,
+        "anidex": 1472
+    },
+    "a2fd5dc31d74b6c3471fd6629ec60355738320c1": {
+        "minglong": 111,
+        "anidex": 152
+    },
+    "819107c4f34e7fa2a07b575f87643ade6a4012c0": {
+        "minglong": 165,
+        "anidex": 235
+    },
+    "9f0c8ea739cc8baf14269973aafa61e06c30922e": {
+        "minglong": 307,
+        "anidex": 393
+    },
+    "a226b76cf9f533452d37798f01c620e441f916d5": {
+        "minglong": 459,
+        "anidex": 844
+    },
+    "c917ce06e4b4fbc3152951635fce9cd8a92a1625": {
+        "minglong": 291,
+        "anidex": 495
+    },
+    "fdf5814cf587f40e25fb5b435877597ca90bd480": {
+        "minglong": 2053,
+        "anidex": 7860
+    },
+    "ca9662774786fa9c7f8aca081cddfdaec2a887de": {
+        "minglong": 374,
+        "anidex": 548
+    },
+    "bd9f7cbd9ed89347dcf5d672c872134378732994": {
+        "minglong": 144,
+        "anidex": 200
+    },
+    "4917c1f922627454a79b0338c3e20cc8c3390659": {
+        "minglong": 140,
+        "anidex": 169
+    },
+    "69ff879b4a89c61c5cde766ecae7298bb26793c0": {
+        "minglong": 295,
+        "anidex": 382
+    },
+    "4f2f329e553116f5d1b98fc346636b73563bf17d": {
+        "minglong": 330,
+        "anidex": 96
+    },
+    "4e92648d4fe743b918feba43db141c54a7725b19": {
+        "minglong": 1686,
+        "anidex": 514
+    },
+    "02dd8a50854864619062755650d69ffbc57d23d4": {
+        "minglong": 827,
+        "anidex": 1196
+    },
+    "c0ce8a67aae0000aea8cdde0fce0aa7d09bed9b5": {
+        "minglong": 152,
+        "anidex": 44
+    },
+    "0de77ab96057c9b9659b0a337e33f5318e47cd6c": {
+        "minglong": 176,
+        "anidex": 229
+    },
+    "73c66e5e8c28c4b5702e0ad15e45fd972ee6ce32": {
+        "minglong": 73,
+        "anidex": 195
+    },
+    "f905cbf195c0e91b2accc8ac54067393d0c534e2": {
+        "minglong": 104,
+        "anidex": 230
+    },
+    "030684fbcf54a6cec6eccc37210eada95e0180b8": {
+        "minglong": 15,
+        "anidex": 48
+    },
+    "63836e72c220c54abe45f8f33f0be7d598be8db4": {
+        "minglong": 37,
+        "anidex": 38
+    },
+    "48c0a318a1af28a1ee1f2fcf6ae4bcba9f0a2416": {
+        "minglong": 97,
+        "anidex": 118
+    },
+    "4eeda195e803b53d060166feee11d85f9f570dea": {
+        "minglong": 10,
+        "anidex": 18
+    },
+    "bbad83f1835c26551ef51618d5a4a9e9388ec802": {
+        "minglong": 716,
+        "anidex": 1082
+    },
+    "3d39ffee94153f8dc45a857a1de8788cd19e5098": {
+        "minglong": 572,
+        "anidex": 1710
+    },
+    "2a39467bb54295f12d1f1483f3a8ee2653856859": {
+        "minglong": 1354,
+        "anidex": 958
+    },
+    "12b6afbe4f02e266bf0fb54effc8c1def78739d4": {
+        "minglong": 388,
+        "anidex": 1389
+    },
+    "09e728a7322978c6676792350fe08cf9525ac03c": {
+        "minglong": 55,
+        "anidex": 148
+    },
+    "97dfcd61e483f0f6f50ebf91cd844e0f0b270008": {
+        "minglong": 999,
+        "anidex": 1385
+    },
+    "73e3f6b06e0a269ec0df43951a8c12557f1d90a8": {
+        "minglong": 190,
+        "anidex": 91
+    },
+    "8f5dc15a7cba90c51d698ff47ccff85db3463338": {
+        "minglong": 370,
+        "anidex": 966
+    },
+    "e9b65978f011259b95a2f4197a04dcc4acf81b2e": {
+        "minglong": 982,
+        "anidex": 219
+    },
+    "06a3f132280d910c64e9c5ee98b3322e36d333da": {
+        "minglong": 440,
+        "anidex": 1326
+    },
+    "a52e438f81c547a0ace72ace563659a0e3e6ef21": {
+        "minglong": 220,
+        "anidex": 20
+    },
+    "4ecb79103605cb505bf0cbd165eeab1cfea5c7f5": {
+        "minglong": 473,
+        "anidex": 1333
+    },
+    "56d1790b863abd783ce3a61577f2f63ec1a83fc8": {
+        "minglong": 148,
+        "anidex": 212
+    },
+    "ff5f1881a101293c8a7d9c1ec104840115e9044e": {
+        "minglong": 79,
+        "anidex": 198
+    },
+    "f9dcfa72b01fd9712c855c6c963f80adb8c3f874": {
+        "minglong": 568,
+        "anidex": 921
+    },
+    "96af48ff2c1ad57c754ba3810f43bf0d33ba49b7": {
+        "minglong": 214,
+        "anidex": 358
+    },
+    "67e1894631c8275ae41853a2e6ca5852dd773ea3": {
+        "minglong": 104,
+        "anidex": 157
+    },
+    "4371d124eb2e61ce11f5ff69667f0a984e0f0108": {
+        "minglong": 82,
+        "anidex": 130
+    },
+    "e49d7ff0dbd1cdd66a4328e14e749232e2071d42": {
+        "minglong": 16,
+        "anidex": 16
+    },
+    "39267f17fdf51f3cb303b84b497bd9306c836b05": {
+        "minglong": 374,
+        "anidex": 513
+    },
+    "4dcb58cf9ab0a7e226bcbede149afbf435aa04cd": {
+        "minglong": 47,
+        "anidex": 89
+    },
+    "68cfaefd800910e27e19025da69c78450f11f44a": {
+        "minglong": 92,
+        "anidex": 176
+    },
+    "ee59cb01e1d42ce11f5258603fbbc9c33adbcd49": {
+        "minglong": 1209,
+        "anidex": 171
+    },
+    "5abddde4a042fe7769649f2c82c06f0c5c9767f2": {
+        "minglong": 29,
+        "anidex": 88
+    },
+    "c5587a37388b8e1563cae22d9fe9fe0c25a143a0": {
+        "minglong": 30,
+        "anidex": 104
+    },
+    "13011ffd4a8e1beca6ee9068f5a278cc86ea80eb": {
+        "minglong": 6,
+        "anidex": 16
+    },
+    "b877e6512cb0512e8431f949328f54b0adef7003": {
+        "minglong": 403,
+        "anidex": 103
+    },
+    "21dfe230bbaae105f4286777c5ff347403593436": {
+        "minglong": 253,
+        "anidex": 151
+    },
+    "ded2a5154c101ef8dd0f96fec4079deec339f486": {
+        "minglong": 212,
+        "anidex": 20
+    },
+    "4279f1d6f9adba1681e4fe92024b4b542e5bf920": {
+        "minglong": 659,
+        "anidex": 1084
+    },
+    "20d00658f89796b023cc852ab4073de871c81afd": {
+        "minglong": 832,
+        "anidex": 1612
+    },
+    "3ca8f7484e64faa584154106f35b53c0204a7239": {
+        "minglong": 1182,
+        "anidex": 2386
+    },
+    "f697c6f8e86b195cf742e2b79b5f22f76381d624": {
+        "minglong": 510,
+        "anidex": 1027
+    },
+    "e922104769d866e2cc1cecd8e9a645fa888f44f7": {
+        "minglong": 105,
+        "anidex": 226
+    },
+    "3d08a592afcb7d4fa9baed32ff2e07f3aa2ef24c": {
+        "minglong": 273,
+        "anidex": 620
+    },
+    "77cf664a55d5aec3a17f8760f8b84bd3f5bc6314": {
+        "minglong": 420,
+        "anidex": 1018
+    },
+    "4127c8d401d19b015a04e7bea42f9b388651b293": {
+        "minglong": 98,
+        "anidex": 218
+    },
+    "ce174a026ca47b6bbf4e167df274130545d9f06d": {
+        "minglong": 298,
+        "anidex": 61
+    },
+    "621d94ddfd16cd6e7a8e0c66f4777bce585feec3": {
+        "minglong": 426,
+        "anidex": 108
+    },
+    "9f3b60bd0f819d950e0ca62162cf843b3125d4ec": {
+        "minglong": 165,
+        "anidex": 27
+    },
+    "63af8910eda5cda1c3331ee842b7511ff381917d": {
+        "minglong": 865,
+        "anidex": 95
+    },
+    "50bd7a69e27c46c04dae02355d2414d5352c3ecc": {
+        "minglong": 538,
+        "anidex": 126
+    },
+    "948242b432ca03818490383a41d517877239cbd3": {
+        "minglong": 301,
+        "anidex": 176
+    },
+    "df188938a50ff3f2a604dea78f9d5299e3a03177": {
+        "minglong": 262,
+        "anidex": 27
+    },
+    "6036ff9d7a101fdb63e3423b954ae62f1ba70ec7": {
+        "minglong": 433,
+        "anidex": 237
+    },
+    "0a17733a41ab588cb2033cf29069f7e1b48ec128": {
+        "minglong": 117,
+        "anidex": 27
+    },
+    "44357e6b79a48333e50d2824622619bed1a2ad91": {
+        "minglong": 87,
+        "anidex": 212
+    },
+    "739a3e9e62100b99bb8e55dec3ff45f2504f75c9": {
+        "minglong": 378,
+        "anidex": 857
+    },
+    "70b33fe0b44ac5ab8d18b9e44cb62c37404c094e": {
+        "minglong": 99,
+        "anidex": 246
+    },
+    "a0cb56ddf3b08a569af2e01f0af8e73388476d0e": {
+        "minglong": 197,
+        "anidex": 577
+    },
+    "1ffe55e3a98cd2420c2379b5fb71e36e32c5ca42": {
+        "minglong": 162,
+        "anidex": 506
+    },
+    "8c318239770f11749afc20ddc8b623bd8b1a9863": {
+        "minglong": 16,
+        "anidex": 74
+    },
+    "a9763059fd56a60cf358aee2313fa1068ab22243": {
+        "minglong": 842,
+        "anidex": 1884
+    },
+    "b0cfb9ba741b4afeec4905b835e10848e1ca4653": {
+        "minglong": 1212,
+        "anidex": 1673
+    },
+    "9c039ab084fa8be7ec05c9699269d3e3d3a80d05": {
+        "minglong": 572,
+        "anidex": 635
+    },
+    "4bb9115a840d6e64e3bd1bd5be8a90043d171082": {
+        "minglong": 60,
+        "anidex": 52
+    },
+    "9e813f37367032188fa264523832e0cdfa5a8021": {
+        "minglong": 77,
+        "anidex": 59
+    },
+    "7c7ceb12b015a544d7475d5c00089ceb71e3ad7f": {
+        "minglong": 130,
+        "anidex": 37
+    },
+    "b800ffd3ecd636340ba7a14c3bcb8258e6b808df": {
+        "minglong": 152,
+        "anidex": 107
+    },
+    "de46be115c576e6338a0484e0e0e3a76bc11f815": {
+        "minglong": 699,
+        "anidex": 35
+    },
+    "19cf6c648124ef4815ef6c810508c581788c9c65": {
+        "minglong": 504,
+        "anidex": 929
+    },
+    "48e6bdf48fefda6dbe70a31f95fe34378a6bfe16": {
+        "minglong": 494,
+        "anidex": 924
+    },
+    "9da586fb674ccc78f42d9f5254ddb3a3da76904c": {
+        "minglong": 259,
+        "anidex": 44
+    },
+    "813f7dee7e9dd12ae47973b2580d5fd3c7c5a9a4": {
+        "minglong": 597,
+        "anidex": 1358
+    },
+    "e27838638290a50a18a72010be044685a711b6f5": {
+        "minglong": 669,
+        "anidex": 1332
+    },
+    "200da9d080d06d8a67edbef56a19d2c25423f586": {
+        "minglong": 2558,
+        "anidex": 5804
+    },
+    "bbc3e83b1a7aaa8f4233475fde37f5ff3193f05e": {
+        "minglong": 2333,
+        "anidex": 5512
+    },
+    "d11a42a4afa023744535bedaa33a0e88d0d8e897": {
+        "minglong": 181,
+        "anidex": 412
+    },
+    "db1982ae41769118d1550e157789b62ec72edf7a": {
+        "minglong": 2132,
+        "anidex": 4965
+    },
+    "a25e3cf2235681e945eafdcc5aecb5466ab16d2f": {
+        "minglong": 2262,
+        "anidex": 5503
+    },
+    "b20dcee4919daf04cecbaa9333a43399c83f92c4": {
+        "minglong": 165,
+        "anidex": 346
+    },
+    "229db9604a3f3b267bd769fa14587ba667656c35": {
+        "minglong": 155,
+        "anidex": 337
+    },
+    "4da0cfc5cadaef3bf22f8f60379c4e123cde31c1": {
+        "minglong": 2167,
+        "anidex": 4914
+    },
+    "0e2ed8cb5f93b995f3e6d3f26d545fab2d6c14a1": {
+        "minglong": 152,
+        "anidex": 323
+    },
+    "691d224668c94c45804301ced41e0f1545210780": {
+        "minglong": 1855,
+        "anidex": 4330
+    },
+    "283ae90c72773597f8c98154119423629599f5b2": {
+        "minglong": 132,
+        "anidex": 297
+    },
+    "e4b6f24d955817c075a26e3fce7d398b96239db5": {
+        "minglong": 85,
+        "anidex": 292
+    },
+    "0917bf15cda85a7d45b68ea0fa4e023070d8a7c6": {
+        "minglong": 1460,
+        "anidex": 4432
+    },
+    "928440d825d95b17202690c540b34f33cbab42e4": {
+        "minglong": 129,
+        "anidex": 302
+    },
+    "179971480e93d08ccad23d43279e0877f2f97759": {
+        "minglong": 1802,
+        "anidex": 4089
+    },
+    "16d3c15e21f58260766bbd155eac812116e4a872": {
+        "minglong": 131,
+        "anidex": 260
+    },
+    "24b1aac0058d2df635c01c1a9fe0db0806d2895a": {
+        "minglong": 1790,
+        "anidex": 4023
+    },
+    "4f7cdd4ae16ed7d174ef51351bc0c23769d61109": {
+        "minglong": 1859,
+        "anidex": 6694
+    },
+    "edd2c52e91983e6d42c3f4ac57f144544695332a": {
+        "minglong": 129,
+        "anidex": 250
+    },
+    "822fc964d30343261163bdc2c6a9ac02cbe9cf2f": {
+        "minglong": 1865,
+        "anidex": 6775
+    },
+    "c8e4ee07ce638733df526fc65899420af4d7d2dc": {
+        "minglong": 139,
+        "anidex": 431
+    },
+    "aca8fe049d4a4a8eab21c68141e8f739ab1a3b9a": {
+        "minglong": 1668,
+        "anidex": 6167
+    },
+    "b313c25f419e6ba074623747539a482916b659ea": {
+        "minglong": 136,
+        "anidex": 399
+    },
+    "c1dedf4cfc8e30744fce5debcea2f1444fce7b22": {
+        "minglong": 1140,
+        "anidex": 4062
+    },
+    "9682887c84d6c46d1e4b7daf853627605135ebcd": {
+        "minglong": 1818,
+        "anidex": 4186
+    },
+    "4867e69b66f6ca8553a6d2f7c0149e6d216ba886": {
+        "minglong": 248,
+        "anidex": 119
+    },
+    "8cc55d64a60c31dcba990f0436b3b03a84b83493": {
+        "minglong": 373,
+        "anidex": 642
+    },
+    "ce66780bc6e418ba69128b290b0c839fd0464fee": {
+        "minglong": 217,
+        "anidex": 287
+    },
+    "dc4b2d4e366c43fc8a8b9cb11db5a55f959fdc09": {
+        "minglong": 201,
+        "anidex": 365
+    },
+    "2478912f5c7738169c0c51248b3bdf6045e2ce55": {
+        "minglong": 407,
+        "anidex": 872
+    },
+    "55e5200ab3ec8d878dc0752c03f9a7f3f6e80442": {
+        "minglong": 1692,
+        "anidex": 44417
+    },
+    "34e79051b22035887869313b6e8ff5c327111ae7": {
+        "minglong": 792,
+        "anidex": 1006
+    },
+    "cc98683cee4b1dc666aac55b3bcece7b1b27800a": {
+        "minglong": 57,
+        "anidex": 45
+    },
+    "b6f7ec3bbc8fa0a16368ffd54b55cce2367745a0": {
+        "minglong": 45,
+        "anidex": 33
+    },
+    "43de03a49e5b7ccb87c65337a4e4266412c2632f": {
+        "minglong": 349,
+        "anidex": 1079
+    },
+    "1adc81be88804de06b812985cd5e9380a5044b56": {
+        "minglong": 72,
+        "anidex": 211
+    },
+    "bba1e199e384659aba81cfcbec3b8d0b3d6a5cde": {
+        "minglong": 254,
+        "anidex": 689
+    },
+    "6ee8d2019c04fa1ce9fb828ecb55fd86fa915959": {
+        "minglong": 1577,
+        "anidex": 840
+    },
+    "1f9e608e434bfda4aaeb29c177b7dc223a851bf5": {
+        "minglong": 307,
+        "anidex": 69
+    },
+    "caffa4ac4d29199724c24d169c9789fb3d93db61": {
+        "minglong": 132,
+        "anidex": 110
+    },
+    "41b595bd4d308da1ec2e16e3457018fc6e2d6181": {
+        "minglong": 252,
+        "anidex": 739
+    },
+    "c3dccd83507b7408eba056fa7efc584c6e170800": {
+        "minglong": 631,
+        "anidex": 2042
+    },
+    "f1006f233cb45a4e1c1f69682f33d763bba13142": {
+        "minglong": 62,
+        "anidex": 215
+    },
+    "da589bf16fe1a3c632c9d84857d50f9ffe360859": {
+        "minglong": 39,
+        "anidex": 87
+    },
+    "9de2ab200640a63e5d0d2e76871ac3a698c985a1": {
+        "minglong": 213,
+        "anidex": 427
+    },
+    "3fd0350a9b3a6c4b4681b0eb5a64bb42716b336d": {
+        "minglong": 27,
+        "anidex": 68
+    },
+    "e5db0088c14a1df21b58c7eda4f3c8560214bc60": {
+        "minglong": 187,
+        "anidex": 358
+    },
+    "94da99173c95c0964a8244f6f84eb2d9e2410873": {
+        "minglong": 28,
+        "anidex": 56
+    },
+    "dcc2df8b47696eefc8e111756549b433e2d6fee8": {
+        "minglong": 16,
+        "anidex": 37
+    },
+    "444365395f51f5fdec69de3467c6a3ef61d297ba": {
+        "minglong": 12,
+        "anidex": 39
+    },
+    "85f330badc77ec7b5388db3e23764d7ff3263ac5": {
+        "minglong": 71,
+        "anidex": 178
+    },
+    "4699edee8d66e9bf30d29ab53012eae4fea858b4": {
+        "minglong": 61,
+        "anidex": 163
+    },
+    "7afb55d0218568a783878e004caa9719da7204f2": {
+        "minglong": 61,
+        "anidex": 17
+    },
+    "d4030892e0e87b16eb2a8dbcacc793a9c5fe0eee": {
+        "minglong": 380,
+        "anidex": 1225
+    },
+    "cdf507cd8f5f0ee4fb3d478c31eebf697d32b061": {
+        "minglong": 467,
+        "anidex": 130
+    },
+    "b1093cd590d77daf11eb6f4d9bb1e8d91093b8c0": {
+        "minglong": 48,
+        "anidex": 29
+    },
+    "60ea7f4e428c2cd0bbdfd97a2d3ae0b5e53c071d": {
+        "minglong": 942,
+        "anidex": 260
+    },
+    "9d3a72eba805713ec3dc63ebcb2c253f3c9870ed": {
+        "minglong": 9,
+        "anidex": 3
+    },
+    "99f233a960df038f267d89b6980e7e08b8d97981": {
+        "minglong": 51,
+        "anidex": 173
+    },
+    "cd7b15738c136de5b09619a9253b70bee02ccb35": {
+        "minglong": 4,
+        "anidex": 19
+    },
+    "e857bb29413b3fbba2e55c73f43ae6f576e18a29": {
+        "minglong": 596,
+        "anidex": 283
+    },
+    "8433569331d254485e7e2d409426382c0a82aa01": {
+        "minglong": 74,
+        "anidex": 36
+    },
+    "079e887d649bdf4391dfac1db72e1005d0bbfb8c": {
+        "minglong": 1759,
+        "anidex": 146
+    },
+    "add4684be70a4172551bd7dd9648f477d97c65c6": {
+        "minglong": 180,
+        "anidex": 338
+    },
+    "b47e6520d81cc256994025d81567975c88a877cf": {
+        "minglong": 242,
+        "anidex": 506
+    },
+    "fe3d2c62dbff8ac503b4abcbabfb690827b0f7dc": {
+        "minglong": 632,
+        "anidex": 3
+    },
+    "9d670f0debed127913ca096dc770a9aad98c2894": {
+        "minglong": 337,
+        "anidex": 489
+    },
+    "e34103ac746b29fa46c5d38dac219e6d9dff8664": {
+        "minglong": 346,
+        "anidex": 445
+    },
+    "c784e8d3452d9a82a7b13b7cbe396cf740fbb62e": {
+        "minglong": 862,
+        "anidex": 1222
+    },
+    "71acc5228e368fef69f1bd6a1d92582aa2ab3431": {
+        "minglong": 498,
+        "anidex": 810
+    },
+    "57950fa23cbe33188388a30668d37b3960507473": {
+        "minglong": 214,
+        "anidex": 283
+    },
+    "d74b4975e22e12e7b3001f4756e56a0bce55c107": {
+        "minglong": 152,
+        "anidex": 102
+    },
+    "7969f5a7559c1d6bd34f4609cf653c2218a21bff": {
+        "minglong": 384,
+        "anidex": 803
+    },
+    "ba83bcb0b8126b109e8c0e5a6c41059437b1494b": {
+        "minglong": 88,
+        "anidex": 184
+    },
+    "b22a1bf6015524bc97d29ed6f6a9f2ee683e565b": {
+        "minglong": 278,
+        "anidex": 548
     }
 }
