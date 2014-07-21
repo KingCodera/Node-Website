@@ -18,17 +18,23 @@ db.writedb = function() {
 
 db.readdb();
 
-fs.readdir(__dirname + '/server/torrents', function(err, files) {	
-	var index = 0;
-	while (index < files.length) {
-		var file = files[index];
-		var suffix = '.torrent';
+fs.readdir(__dirname + '/server/btf', function(err, files) {
+	if (err) {
+		console.log(err.message);
+	}	
+	for (var i in files) {				
+		var file = files[i];
+		var suffix = '.btf';
 		if (file.indexOf(suffix, file - suffix.length) !== -1) {
-			var torrent = fs.readFileSync(__dirname + '/server/torrents/' + file);
+			var torrent = fs.readFileSync(__dirname + '/server/btf/' + file);
 			var parsedTorrent = parseTorrent(torrent);
-			scraper.scrape(extend({}, parsedTorrent), db, {});
+			if (parsedTorrent.name.indexOf('[Doki]') === -1) {
+				fs.unlinkSync(__dirname + '/server/btf/' + file)
+				console.log('Deleting: ' + parsedTorrent.name);
+			} else {
+				scraper.scrape(extend({}, parsedTorrent), db, {});
+			}
 		}
-		index++;		
 	}
 });
 

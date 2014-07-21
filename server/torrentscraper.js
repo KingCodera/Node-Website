@@ -8,55 +8,54 @@
 var BN = require('bn.js');
 var bencode = require('bencode');
 var common = require('./lib/common');
-var compact2string = require('compact2string');
 var concat = require('concat-stream');
-var debug = require('debug')('bittorrent-tracker:client');
 var dgram = require('dgram');
-var EventEmitter = require('events').EventEmitter;
 var extend = require('extend.js');
-var hat = require('hat');
 var http = require('http');
-var inherits = require('inherits');
 var querystring = require('querystring');
-var url = require('url');
 
-var ACTION_SCRAPE = 2;
-
-function toUInt16(n) {
-	var buf = new Buffer(2);
-	buf.writeUInt16BE(n, 0);
-	return buf;
-}
-
-var MAX_UINT = 4294967295;
-
-exports.scrape = function(torrent, db, opts) {		
+exports.scrape = function(torrent, db, opts) {
 	var peerId = new Buffer('01234567890123456789');
 	
 	opts._db = db;
 	opts._opts = {};
 	opts._peerId = Buffer.isBuffer(peerId) ? peerId : new Buffer(peerId, 'utf8');
 	opts._port = 6881;
-	opts._infoHash = Buffer.isBuffer(torrent.infoHash) ? torrent.infoHash : new Buffer(torrent.infoHash, 'hex');
+	opts._infoHash = new Buffer(torrent.infoHash, 'hex');
 	opts.torrentLength = torrent.length;
+	opts._name = torrent.name;
 	
 	if (typeof torrent.announce === 'string') {
 		torrent.announce = [torrent.announce];
 	}
 	
-	torrent.announce.map(function(announceUrl) {		
+	torrent.announce.map(function(announceUrl) {
 		if (announceUrl.indexOf('udp:') === 0) {
 			// TODO: Handle UDP request.
-		} else {
-			console.log("Processing torrent with infoHash: " + opts._infoHash.toString('hex'));
+		} else if (announceUrl.indexOf('anime-index') === -1 && announceUrl.indexOf('minglong') === -1) {
+			// Old torrent ignore.
+		} else {			
 			// HTTP request.
+
 			var options = extend({
 				info_hash: opts._infoHash.toString('binary')
 			}, opts._opts);
 			
 			announceUrl = announceUrl.replace('announce', 'scrape');
-			
-			var fullUrl = announceUrl + '?' + common.querystringStringify(options);
+			var query = common.querystringStringify(options).replace(/\+/g, '%2B');
+			var query2 = querystring.stringify(options);
+			query = query.replace(/\./g, '%2E');
+			query = query.replace(/\//g, '%2F');
+			query = query.replace(/\*/g, '%2A');
+			opts._query = query;
+			opts._query2 = query2;
+
+			var fullUrl = announceUrl + '?' + query;
+						
+			if (!(opts._infoHash.toString('binary') === common.querystringParse(query).info_hash)) {
+				console.log("HTTP GET: " + fullUrl);
+			}
+
 			var req = http.get(fullUrl, function(res) {
 				if (res.statusCode !== 200) {
 					res.resume(); // consume the whole stream
@@ -69,7 +68,8 @@ exports.scrape = function(torrent, db, opts) {
 			})
 
 			req.on('error', function(err) {
-				console.log(err.message);
+				console.log(err.message + ' on ' + opts._infoHash.toString('hex'))
+				console.log('query: ' + fullUrl + '?' + opts._query);
 			})
 		}
 	});	
@@ -81,12 +81,12 @@ var handleResponse = function(requestUrl, data, object) {
 	try {
 		data = bencode.decode(data);		
 	} catch (err) {
-		console.log(err.message);
+		console.log(err.message + ' on ' + self._name);		
 		return;
 	}
 	var failure = data['failure reason'];
 	if (failure) {
-		console.log(failure);
+		console.log(failure + ' on ' + self._name);
 		return;
 	}
 
@@ -96,28 +96,40 @@ var handleResponse = function(requestUrl, data, object) {
 		return;
 	}
 	
+	var original = data;
 	data = data.files || data.host || {};
+	var backup = data.files || data.host || {};
 	data = data[self._infoHash.toString()];
 	var infohash = self._infoHash.toString('hex');
 
 	if (!data) {
-		console.log('No data ' + infohash);
+		if (!backup) {
+			console.log("FAILURE: Unable to find info_hash in return.");
+		} else {
+			console.log("FAILURE: Empty reply received.");
+			console.log(requestUrl);
+		}
 	} else {
 		// TODO: optionally handle data.flags.min_request_interval (separate
-		// from announce interval)		
+		// from announce interval)
 		
 		if (self._db.db[infohash] === undefined) {
-			self._db.db[infohash] = {};
+			self._db.db[infohash] = {
+				"minglong": 0,
+				"anidex": 0,
+				"name": ""
+			};
 		}
+
+		self._db.db[infohash].name = self._name;
 		
 		if (requestUrl.indexOf('minglong') !== -1) {
 			// Add data to minglong stats.
-			self._db.db[infohash].minglong = data.downloaded;
-			console.log(infohash + ' minglong data added');
+			self._db.db[infohash].minglong = data.downloaded;						
 		} else if (requestUrl.indexOf('anime-index') !== -1) {
 			// Add data to anidex stats.
 			self._db.db[infohash].anidex = data.downloaded;
-			console.log(infohash + ' anidex data added');
+			//console.log(data.name + ' anidex data added');
 		}
 		
 		self._db.writedb();
